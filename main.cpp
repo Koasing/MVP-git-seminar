@@ -6,6 +6,13 @@ int function2(int worker)
 
     // something additional works
     retval = worker * worker;
+
+    // hard_worker
+    int hard_worker = worker * 2;
+    
+    hard_worker += 3;
+
+    retval = retval + hard_worker;
     
     return retval;
 }
