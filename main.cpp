@@ -7,6 +7,10 @@ int function1()
     // blahblah something important algorithm
     very_important_value = 128;
 
+    very_important_value *= 2;
+    
+    very_important_value = very_important_value >> 1;
+
     return very_important_value;
 }
 
