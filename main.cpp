@@ -11,7 +11,11 @@ int function1()
     
     very_important_value = very_important_value >> 1;
 
-    return very_important_value;
+    int new_feature = 192;
+    
+    new_feature += very_important_feature;
+
+    return new_feature;
 }
 
 int main(int argc, char *argv[])
